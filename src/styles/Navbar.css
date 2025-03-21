@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+  }
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+.navbar_left {
+    align-items: center;}
+
+.navbar_middle {
+    display: flex;
+    gap: 70px;
+}
+
+.navbar_right{
+    display: flex;
+    gap: 40px;
+}
+
