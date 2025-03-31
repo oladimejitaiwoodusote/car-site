@@ -2,7 +2,7 @@ import '../styles/Navbar.css'
 import { CiUser } from "react-icons/ci";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 
-function Navbar() {
+function Navbar(): React.JSX.Element{
   return (
     <nav className='navbar'>
         <div className='navbar_left'>
