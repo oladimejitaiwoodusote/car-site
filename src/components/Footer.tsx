@@ -22,30 +22,28 @@ function Footer() {
       </div>
       <div className='footer_bottom'>
         <div className='footer_column'>
-          <span>Luxury.cars</span>
+          <span className="footer_title">Luxury.cars</span>
           <span>We help you find your dream Car</span>
         </div>
         <div className='footer_column'>
-          <span>information</span>
+          <span className="footer_title">information</span>
           <span>About</span>
           <span>Pricing</span>
           <span>Blog</span>
         </div>
         <div className='footer_column'>
-          <span>Company</span>
+          <span className="footer_title">Company</span>
           <span>Community</span>
           <span>Career</span>
           <span>Our Story</span>
         </div>
         <div className='footer_column'>
-          <span>Contact</span>
+          <span className="footer_title">Contact</span>
           <span>Getting Started</span>
           <span>Pricing</span>
           <span>Resources</span>
         </div>
-        <div className='footer_bottom'>
-          <p>2023 all Right Reserved Term of use LUXURY.CARS</p>
-        </div>
+        <p className="footer_copyright">2023 all Right Reserved Term of use LUXURY.CARS</p>
       </div>
     </footer>
   )
