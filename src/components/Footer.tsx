@@ -3,7 +3,7 @@ import { PiInstagramLogoThin } from "react-icons/pi";
 import { PiTwitterLogoThin } from "react-icons/pi";
 import { SlSocialFacebook } from "react-icons/sl";
 
-function Footer() {
+function Footer(): React.JSX.Element {
   return (
     <footer className='footer'>
       <div className='footer_top'>
