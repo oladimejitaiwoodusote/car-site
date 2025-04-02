@@ -1,6 +1,7 @@
+import React from 'react'
 import '../styles/How.css'
 
-function How() {
+function How():React.JSX.Element {
   return (
     <div className='How'>
         <h1>How It Works?</h1>

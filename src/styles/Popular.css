@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Popular {
+    padding: 40px 20px;
+    background-color: black;
+}
+
+.Popular h1{
+    font-size: 50px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.Popular_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Popular_car{
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.Popular_car img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.Popular_car h1{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.Popular_car p {
+    font-size: 15px;
+    font-weight: 40;
+}
