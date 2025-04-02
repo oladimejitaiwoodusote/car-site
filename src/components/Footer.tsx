@@ -24,7 +24,7 @@ function Footer() {
         <div className='footer_columns'>
           <div className='footer_column'>
             <span className="footer_title">Luxury.cars</span>
-            <span>We help you find your dream Car</span>
+            <span>We help you find your</span>
           </div>
           <div className='footer_column'>
             <span className="footer_title">Information</span>
