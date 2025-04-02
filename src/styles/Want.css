@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Want {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px 3%;
+}
+
+.Want_left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Want_left h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+.Want_left p {
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.Want_left ul{
+    padding-left: 20px;
+    font-size: 35px;
+    line-height: 1.5;
+}
+
+.Want_left ul li{
+    margin-bottom: 5px;
+}
+
+.Want_left button {
+    margin-top: 100px;
+    padding: 10px 20px;
+    background-color: darkgray;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15%;
+    width: fit-content; 
+}
+
+.Want_right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Want_right img {
+    max-width: 100%;
+    height: auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+
+
+
+

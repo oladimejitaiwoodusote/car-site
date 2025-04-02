@@ -27,7 +27,7 @@ function Popular():React.JSX.Element {
                 <p>Year - 2019 | KMS - 39600 | Fuel Type - Diesel</p>
             </div>
         </div>
-
+        <p className="see-all">See All</p>
     </div>
   )
 }
