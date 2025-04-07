@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/Dream.css';
 import { FaSearch } from "react-icons/fa";
+import img6 from '../assets/img6.jpeg'
+
 
 function Dream(): React.JSX.Element {
   return (
     <div className='Dream'>
-        <img className="Dream_image" src="/images/img1.jpeg" alt="Dream Car" />
+        <img className="Dream_image" src={img6}/>
         <div className='Dream_overlay'>
             <div className='Dream_content'>
             <h1>Get your dream <br/> Car</h1>

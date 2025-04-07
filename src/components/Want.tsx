@@ -1,5 +1,7 @@
 import React from 'react'
 import '../styles/Want.css'
+import img5 from '../assets/img5.jpeg'
+
 
 
 function Want():React.JSX.Element {
@@ -16,7 +18,7 @@ function Want():React.JSX.Element {
             <button>KNOW MORE {">"}</button>
         </div>
         <div className='Want_right'>
-            <img alt="img5" src="/images/img5.jpeg"/>
+            <img alt="img5" src={img5}/>
         </div>
     </div>
   )
