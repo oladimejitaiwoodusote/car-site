@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -148,4 +148,253 @@
 .footer_copyright {
     font-size: 12px;
     margin-top: 150px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3a3a3a;
+    width: 100%;
+    padding: 50px 20px;
+    margin-bottom: 150px;
+}
+
+.footer_top_left {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    flex: 0.6;
+    background-color: transparent;
+}
+
+.footer_top_left span {
+    background-color: transparent;
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.footer_top_left svg {
+    background-color: transparent;
+    color: white;
+}
+
+.icon_wrapper {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
+    color: hsl(0, 0%, 0%);
+    outline: auto;
+}
+
+.footer_top_right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0.6;
+    background-color: #3a3a3a;
+}
+
+.footer_form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #6e6e6e;
+    padding: 0px;
+    border-radius: 5px;
+    width: auto;
+    max-width: 600px;
+}
+
+.footer_form_input {
+    padding: 8px;
+    border: none;
+    background-color: #6e6e6e;
+    border-radius: 5px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+
+.footer_form_input::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 20px;
+}
+
+.footer_input_submit {
+    height: 100%;
+    padding: 15px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.footer_bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer_columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 80px;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    min-width: 150px;
+    font-weight: 100;
+}
+
+.footer_column:first-child .footer_title {
+    font-size: 28px;
+}
+
+.footer_column:first-child span:not(.footer_title) {
+    font-size: 28px;
+}
+
+.footer_column:not(:first-child) .footer_title {
+    font-size: 26px;
+}
+
+.footer_column span:not(.footer_title) {
+    font-size: 16px;
+}
+
+.footer_column:first-child span:not(.footer_title)::after {
+    content: "\a dream Car";
+    white-space: pre;
+}
+
+.footer_title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.footer_copyright {
+    font-size: 12px;
+    margin-top: 150px;
+}
+
+/* Mobile-responsive styles */
+@media (max-width: 768px) {
+    .footer_top {
+        flex-direction: column;
+        padding: 30px 20px;
+        margin-bottom: 80px;
+    }
+
+    .footer_top_left {
+        gap: 50px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer_top_right {
+        flex: 1;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .footer_form {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .footer_form_input {
+        width: 70%;
+    }
+
+    .footer_input_submit {
+        width: 30%;
+    }
+
+    .footer_columns {
+        padding: 0 20px;
+        gap: 10px;
+    }
+
+    .footer_column {
+        min-width: 120px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer_column:first-child .footer_title {
+        font-size: 22px;
+    }
+
+    .footer_column span:not(.footer_title) {
+        font-size: 14px;
+    }
+
+    .footer_title {
+        font-size: 18px;
+    }
+
+    .footer_copyright {
+        font-size: 10px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .footer_top {
+        padding: 20px 15px;
+    }
+
+    .footer_top_left span {
+        font-size: 40px;
+    }
+
+    .footer_form_input::placeholder {
+        font-size: 16px;
+    }
+
+    .footer_input_submit {
+        font-size: 16px;
+    }
+
+    .footer_column {
+        font-size: 12px;
+    }
+
+    .footer_column:first-child .footer_title {
+        font-size: 20px;
+    }
+
+    .footer_column span:not(.footer_title) {
+        font-size: 12px;
+    }
+
+    .footer_copyright {
+        font-size: 8px;
+    }
 }

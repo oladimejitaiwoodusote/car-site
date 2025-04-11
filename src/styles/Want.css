@@ -1,15 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .Want {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: black;
     padding: 50px 3%;
+    color: white;
 }
 
 .Want_left {
@@ -19,7 +14,7 @@
     justify-content: center;
 }
 
-.Want_left h1{
+.Want_left h1 {
     font-size: 50px;
     font-weight: 100;
     margin-bottom: 0px;
@@ -32,13 +27,13 @@
     margin-bottom: 30px;
 }
 
-.Want_left ul{
+.Want_left ul {
     padding-left: 20px;
     font-size: 35px;
     line-height: 1.5;
 }
 
-.Want_left ul li{
+.Want_left ul li {
     margin-bottom: 5px;
 }
 
@@ -50,10 +45,10 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 15%;
-    width: fit-content; 
+    width: fit-content;
 }
 
-.Want_right{
+.Want_right {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -64,4 +59,64 @@
     height: auto;
     max-width: 600px;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .Want {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .Want_left {
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    .Want_left h1 {
+        font-size: 36px; 
+    }
+
+    .Want_left p {
+        font-size: 25px; 
+    }
+
+    .Want_left ul {
+        font-size: 25px;
+    }
+
+    .Want_left button {
+        margin-top: 50px;
+        font-size: 14px; 
+    }
+
+    .Want_right {
+        margin-top: 20px;
+        justify-content: center;
+    }
+
+    .Want_right img {
+        max-width: 100%; 
+    }
+}
+
+@media (max-width: 500px) {
+    .Want_left h1 {
+        font-size: 28px;
+    }
+
+    .Want_left p {
+        font-size: 20px;
+    }
+
+    .Want_left ul {
+        font-size: 20px;
+    }
+
+    .Want_left button {
+        font-size: 12px;
+    }
+
+    .Want_right img {
+        max-width: 100%;
+    }
 }

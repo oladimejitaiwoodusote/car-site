@@ -10,3 +10,12 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    padding: 0 10px;
+  }
+}
